@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::create([
+        User::updateOrCreate([
             'name' => env('USER_NAME'),
             'email' => env('USER_EMAIL'),
             'password' => Hash::make(env('USER_PASSWORD')),
