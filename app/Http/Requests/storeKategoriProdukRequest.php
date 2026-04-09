@@ -26,7 +26,7 @@ class StoreKategoriProdukRequest extends FormRequest
         ];
     }
 
-    public function message():array
+    public function messages(): array
     {
         return [
           'required' => 'Nama Kategori Wajib Diisi',
