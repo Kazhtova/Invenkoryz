@@ -30,20 +30,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/eksekusi-database', function () {
-    try {
-        // 1. Memaksa pembuatan tabel (Migrate)
-        Artisan::call('migrate', ['--force' => true]);
-        
-        // 2. Memaksa pengisian data (Seeder) yang akan membaca file .env
-        Artisan::call('db:seed', ['--force' => true]);
-        
-        return 'EKSEKUSI SUKSES! Database sudah siap dan Admin sudah dibuat berdasarkan .env. Silakan buka halaman login.';
-    } catch (\Exception $e) {
-        return 'EKSEKUSI GAGAL: ' . $e->getMessage();
-    }
-});
-
 Route::middleware('auth')->group(function () {
 
     Route::prefix('get-data')->name('get-data.')->group(function (){
