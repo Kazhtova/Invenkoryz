@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Features (Fitur)
+##  Features (Fitur)
 
 * **Dashboard Analitik (Analytics Dashboard):** Visualisasi data ringkas mengenai status inventaris.
 * **Master Data Management:** Pengelolaan data inti barang, kategori, dan entitas terkait.
