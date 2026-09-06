@@ -29,7 +29,7 @@
 
 ---
 
-##  Installation & Setup (Instalasi & Pengaturan)
+## Installation & Setup (Instalasi & Pengaturan)
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda (Local Environment):
 
