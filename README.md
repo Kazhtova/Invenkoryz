@@ -1,4 +1,4 @@
-#  Invenkoryz - Inventory Management System
+# Invenkoryz - Inventory Management System
 
 > **English:** A comprehensive and centralized web-based application designed to manage inventory operations, track inbound and outbound transactions, and generate analytical reports.
 >
