@@ -20,7 +20,7 @@
 
 ---
 
-##  Tech Stack (Teknologi yang Digunakan)
+## Tech Stack (Teknologi yang Digunakan)
 
 * **Framework:** Laravel (PHP)
 * **Database:** MySQL
