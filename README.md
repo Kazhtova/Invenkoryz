@@ -45,3 +45,4 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal A
     php artisan migrate --seed
     php artisan serve
     npm run dev
+```
