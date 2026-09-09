@@ -34,7 +34,7 @@
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda (Local Environment):
 
 1. **Clone the repository:**
-   ```bash
+   ```
    git clone [https://github.com/Kazhtova/Invenkoryz.git](https://github.com/Kazhtova/Invenkoryz.git)
    cd Invenkoryz
 
